@@ -55,19 +55,19 @@ I subsequently ran a series of neural networks trained on word embeddings. I use
 
 The BERT model (Model 3) outperformed all other models on the Wikipedia comments, achieving a % accuracy with a precision of % and a recall of %. However, Model 1A performed the best on the Ao3 comments, achieving a  % accuracy with a precision of % and a recall of %.
 
-||Model 1A|Model 1B|Model 1C|Model 2A|Model 2B|Model 3|
-|---|---|---|---|---|---|---|
-|Precision (Train)|86.3%|89.7%|83.7%|79.2%|80.7%|98.7%|
-|Recall (Train)|83.8%|84.3%|88.3%|72.7%|83.2%|99.1%|
-|Accuracy (Train)|85.2%|87.3%|85.6%|76.8%|81.6%|98.9%|
-|---|---|---|---|---|---|---|
-|Precision (Test)|87.1%|88.5%|83.5%|79.7%|81.9%|87.4%|
-|Recall (Test)|80.5%|80.7%|84.8%|70.3%|81.4%|89.3%|
-|Accuracy (Test)|84.3%|85.1%|84.0%|76.2%|81.7%|88.2%|
-|---|---|---|---|---|---|---|
-|Precision (Ao3)|65.1%|63.3%|58.6%|51.9%|60.7%|60.4%|
-|Recall (Ao3)|60.6%|50.6%|59.4%|52.5%|63.7%|54.4%|
-|Accuracy (Ao3)|64.1%|60.5%|58.8%|51.9%|61.3%|59.4%|
+||1A|1B|1C|2A|2B|3|
+|-|-|-|-|-|-|-|
+|Precision (Train)|86.3%|89.7%|83.7%|79.2%|80.7%|**98.7%**|
+|Recall (Train)|83.8%|84.3%|88.3%|72.7%|83.2%|**99.1%**|
+|Accuracy (Train)|85.2%|87.3%|85.6%|76.8%|81.6%|**98.9%**|
+|-|-|-|-|-|-|-|
+|Precision (Test)|87.1%|88.5%|83.5%|79.7%|81.9%|**87.4%**|
+|Recall (Test)|80.5%|80.7%|84.8%|70.3%|81.4%|**89.3%**|
+|Accuracy (Test)|84.3%|85.1%|84.0%|76.2%|81.7%|**88.2%**|
+|-|-|-|-|-|-|-|
+|Precision (Ao3)|**65.1%**|63.3%|58.6%|51.9%|60.7%|60.4%|
+|Recall (Ao3)|**60.6%**|50.6%|59.4%|52.5%|63.7%|54.4%|
+|Accuracy (Ao3)|**64.1%**|60.5%|58.8%|51.9%|61.3%|59.4%|
 
 
 ## Conclusions and Recommendations
