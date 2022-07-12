@@ -53,7 +53,7 @@ I trained and tested a broad range of models. My first set of models were all ba
 
 I subsequently ran a series of neural networks trained on word embeddings. I used 100-dimensional and 300-dimensional GloVE embeddings for this purpose. The first set of models were three LSTM models. Model 1A was a unidirectional LSTM model trained on 100-dimensional GloVE embeddings. In the hopes of boosting model performance, a second model, Model 1B was trained on 300-dimensional GloVE embeddings using a unidirectional LSTM layer, but the plotted learning curves showed signs of overfitting. Model 1C reverted to 100-dimensional GloVE embeddings, but utilized a bidirectional LSTM layer to boost model performance, and an L2 penalty to curb overfitting. The second set of models were two 1D CNN models. Model 2A was a 1D CNN trained on 100-dimensional GloVE embeddings, and Model 2B was a 1D CNN trained on 300-dimensional GloVE embeddings. Both models underperformed the baseline bag of words SVM model. Finally, the third and final model was a BERT model trained on 100-dimensional GloVE embeddings.
 
-The BERT model (Model 3) outperformed all other models on the Wikipedia comments, achieving a % accuracy with a precision of % and a recall of %. However, Model 1A performed the best on the Ao3 comments, achieving a  % accuracy with a precision of % and a recall of %.
+The BERT model (Model 3) outperformed all other models on the Wikipedia comments, achieving a 98.7% train accuracy and a 87.4% test accuracy. However, Model 1A performed the best on the Ao3 comments, achieving a 65.1% accuracy with a precision of 64.1% and a recall of 60.6%.
 
 ||1A|1B|1C|2A|2B|3|
 |-|-|-|-|-|-|-|
