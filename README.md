@@ -1,5 +1,5 @@
 
-# Capstone: Abuse Classification for Ao3 Comments
+# Capstone: Abuse & Hate Speech Detection in Online Content
 
 ## Problem Statement
 With the advent of the internet and social media, online abuse is becoming an increasingly pressing issue. Online abuse can cause users of a platform to leave the platform, presenting an issue to internet companies. At the same time, online abuse in the form of personal attacks and cyberbullying can have serious consequences on the mental health of platform users, especially minorities who may become exposed to hate speech. Hate speech has also been shown to contribute to discriminatory attitudes and an increase in violence towards minorities.
